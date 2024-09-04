@@ -25,7 +25,7 @@ model_id ="meta-llama/Llama-2-7b-chat-hf"
 tokenizer = transformers.AutoTokenizer.from_pretrained(model_id)
 
 from transformers import AutoModelForCausalLM
-model = AutoModelForCausalLM.from_pretrained(model_id ="meta-llama/Llama-2-7b-chat-hf", trust_remote_code=True)
+model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-2-7b-chat-hf", trust_remote_code=True)
 
 
 
