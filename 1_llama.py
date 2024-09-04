@@ -1,12 +1,12 @@
+
+
 import pandas as pd
-dataset = pd.read_csv(r"C:\Users\insha\Downloads\COPY - Sheet1.csv", encoding = "utf-8")
+dataset = pd.read_csv(r"COPY.csv", encoding = "utf-8")
 
 # Extract abstracts to train on and corresponding titles
 article = dataset["Body (cleaned)"]
 
 print(len(article))
-
-
 
 
 
